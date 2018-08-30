@@ -1,0 +1,18 @@
+{
+  "name": "novad-grid-background",
+  "version": "1.0.0",
+  "description": "insert grid-background div into target element, or make target element grid-background",
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndNovaDev/novad-grid-background.git"
+  },
+  "author": "nvoadev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndNovaDev/novad-grid-background/issues"
+  },
+  "homepage": "https://github.com/ndNovaDev/novad-grid-background#readme"
+}
+
