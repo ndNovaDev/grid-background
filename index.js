@@ -16,6 +16,7 @@ var insertGrid = function (id, color = '#475663', width = 25, height = width) {
         background-repeat: repeat;`
     var parent = document.getElementById(id)
     parent.appendChild(div)
+    return div
 }
 var makeGrid = function (id, color = '#475663', width = 25, height = width) {
     var pw = getPercent(width)
@@ -25,6 +26,7 @@ var makeGrid = function (id, color = '#475663', width = 25, height = width) {
         background-image: linear-gradient(to right,transparent 0%, transparent ${pw}%, ${color} ${pw}%), linear-gradient(to bottom,transparent 0%, transparent ${ph}%, ${color} ${ph}%);
         background-size: ${width}px ${height}px;
         background-repeat: repeat;`
+    return div
 }
 module.exports = { insertGrid, makeGrid }
 exports.default = insertGrid
